@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "兴趣爱好",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

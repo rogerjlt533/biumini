@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "通信历史",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "notice-cell": "/compoents/home/notice-cell"
+  }
+}

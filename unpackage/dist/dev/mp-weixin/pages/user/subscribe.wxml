@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="28509f27-1" back-text title="消息通知设置" isBack="{{true}}" imgwidth="{{imgsize}}" imgheight="{{imgsize}}" srcleft="{{srcleft}}" bind:__l="__l"></u-navbar><view style="margin-top:-100rpx;margin-bottom:-30rpx;"><image style="width:100%;" src="{{src}}" mode="widthFix"></image></view></view>

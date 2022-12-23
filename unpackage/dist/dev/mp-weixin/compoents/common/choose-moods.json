@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item"
+  }
+}

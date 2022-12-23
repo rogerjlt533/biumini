@@ -1,0 +1,19 @@
+{
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-badge": "/uview-ui/components/u-badge/u-badge",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "biu-info": "/compoents/home/biu-info",
+    "xinxi-cell": "/compoents/home/xinxi-cell",
+    "sixin-cell": "/compoents/home/sixin-cell"
+  }
+}

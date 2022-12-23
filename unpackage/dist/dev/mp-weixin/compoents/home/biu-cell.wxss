@@ -1,0 +1,45 @@
+
+.biu-icon.data-v-285ce7a8 {
+	margin-top: 0 !important;
+	margin-bottom: auto;
+	width: 60rpx;
+	padding-top: 16rpx;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.biu-title.data-v-285ce7a8 {
+	font-size: 36rpx;
+	/* font-weight: bold; */
+	margin-top: 4rpx !important;
+	color: #363D50;
+}
+.biu-title-read.data-v-285ce7a8 {
+	font-size: 36rpx;
+	/* font-weight: bold; */
+	margin-top: 4rpx !important;
+	color: #8A8A8A;
+}
+.biu-content.data-v-285ce7a8 {
+	margin-left: 60rpx;
+	margin-top: 10rpx;
+	/* border-bottom: 1rpx solid #CCCCCC; */
+	padding-bottom: 16rpx;
+	color: #8A8A8A;
+	font-size: 32rpx;
+}
+.biu-image.data-v-285ce7a8 {
+	margin-left: 56rpx;
+	padding-bottom: 0rpx;
+}
+.biu-tag.data-v-285ce7a8 {
+	margin-left: 54rpx;
+	padding-bottom: 0rpx;
+}
+.biu-footer.data-v-285ce7a8 {
+	font-size: 28rpx;
+	margin: 0rpx 20rpx;
+	margin-left: 60rpx !important;
+	margin-bottom: 10rpx !important;
+	color: #B3B3B3;
+}
+

@@ -1,0 +1,16 @@
+
+.xinxi-time.data-v-3d3dd74a {
+	font-size: 28rpx;
+	color: #B3B3B3;
+}
+.xinxi-title.data-v-3d3dd74a {
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #363D50;
+}
+.xinxi-content.data-v-3d3dd74a {
+	color: #808080;
+	font-size: 28rpx;
+	margin: 50rpx 0;
+}
+

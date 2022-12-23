@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "安全提示",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

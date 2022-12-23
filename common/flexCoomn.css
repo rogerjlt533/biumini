@@ -1,0 +1,116 @@
+/*封装flex布局*/
+.u-f-d,
+.u-f-a,
+.u-f-aj,
+.u-f-ajc,
+.u-f-ajr {
+	/* sunzttt */
+	display: flex;
+}
+
+.u-f-a,
+.u-f-aj,
+.u-f-ajc,
+.u-f-ajr {
+	align-items: center;
+}
+
+.u-f-aj {
+	justify-content: space-between;
+}
+
+.u-f-ajc {
+	justify-content: center;
+}
+
+.u-f-ajr {
+	justify-content: flex-end;
+}
+
+.u-f-l {
+	flex-direction: column;
+}
+
+.u-f1 {
+	flex: 1;
+}
+
+.u-f-title {
+	color: #AE9F82;
+	font-size: 28rpx;
+	border: 1px solid rgba(174, 159, 130, 0.11);
+	padding: 15rpx 20rpx;
+	/* padding: 15rpx 20rpx 15rpx 20rpx; */
+	border-radius: 36rpx;
+	display: flex;
+}
+
+
+/* sunzttt */
+.u-f-a-title {
+	color: #363D50;
+	/* color: #FF0000; */
+	font-size: 36rpx;
+	font-weight: bolder;
+	/* padding: 20rpx; */
+	margin: 20rpx 0 20rpx 20rpx;
+	/* border: 1rpx solid #FF0000; */
+}
+
+.u-f-a-cell-title {
+	font-size: 28rpx;
+	color: #363D50;
+}
+
+.u-f-a-cell-title-sub {
+	font-size: 23rpx;
+	color: #B3B3B3;
+}
+
+.u-f-a-content {
+	color: #363D50;
+	font-size: 32rpx;
+	padding: 20rpx;
+	/* margin: 20rpx 0 0 20rpx; */
+}
+
+.u-f-a-title-sub {
+	color: #CCCCCC;
+	font-size: 32rpx;
+	font-weight: 200;
+	/* padding: 20rpx; */
+	/* margin: 20rpx 0 0 20rpx; */
+}
+
+.u-s-f {
+	margin: 30rpx;
+}
+
+.u-s-f-body {
+	padding: 30rpx 40rpx;
+	border: 1px solid rgba(174, 159, 130, 0.11);
+	border-radius: 16rpx;
+}
+
+.u-edit-b {
+	margin: 30rpx;
+	border: 1px solid rgba(174, 159, 130, 0.11);
+	border-radius: 16rpx;
+}
+
+.u-f-btn {
+	text-align: center;
+	margin: 100rpx 0 200rpx 0;
+}
+
+.u-f-btn-unused {
+	/*固定位置*/
+	text-align: center;
+	left: 0;
+	right: 0;
+	position: fixed;
+	bottom: 120rpx;
+	color: cornflowerblue;
+}
+
+/* sunzttt */

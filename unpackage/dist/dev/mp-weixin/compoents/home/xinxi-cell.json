@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "biu-mingpian": "/compoents/home/biu-mingpian"
+  }
+}

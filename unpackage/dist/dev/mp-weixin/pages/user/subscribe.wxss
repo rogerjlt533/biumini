@@ -1,0 +1,13 @@
+
+.userabout-header {
+	padding: 40rpx 0;
+}
+.userabout-header>image {
+	width: 65%;
+	margin-top: 50rpx;
+	margin-bottom: 30rpx;
+}
+.userabout-header>view {
+	color: #CCCCCC;
+}
+

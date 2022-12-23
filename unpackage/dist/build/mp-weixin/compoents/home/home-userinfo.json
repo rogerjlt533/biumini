@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-select": "/uview-ui/components/u-select/u-select",
+    "u-picker-nation": "/uview-ui/components/u-picker-nation/u-picker-nation",
+    "u-select-slider-range": "/uview-ui/components/u-select-slider-range/u-select-slider-range",
+    "home-user-cell": "/compoents/home/home-user-cell"
+  }
+}

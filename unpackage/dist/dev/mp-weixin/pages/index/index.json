@@ -1,0 +1,16 @@
+{
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-dropdown": "/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "biu-cell": "/compoents/home/biu-cell",
+    "slider-range": "/compoents/common/slider-range"
+  }
+}

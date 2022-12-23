@@ -1,0 +1,14 @@
+
+.u-dropdown.data-v-57280228 {
+  border: 1rpx solid #F5F5F5;
+  border-radius: 30rpx;
+  background-color: #FF3333;
+}
+.biu-cell.data-v-57280228 {
+  margin: 30rpx;
+  padding: 20rpx;
+  border: 2rpx solid rgba(186, 174, 152, 0.1);
+  border-radius: 16rpx;
+  background-color: #FFFFFF;
+}
+

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "私信",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-notice-bar": "/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

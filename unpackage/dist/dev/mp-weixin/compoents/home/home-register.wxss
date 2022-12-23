@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.body.data-v-6c956b14 {
+	padding: 0 20rpx;
+}
+.user-set-btn.data-v-6c956b14 {
+	margin-top: 30rpx;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	background-color: #AE9F82;
+	color: #FFFFFF !important;
+}
+.common-input.data-v-6c956b14 {
+	font-size: 30rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.user-set-btn-disable.data-v-6c956b14 {
+	background: #F4F4F4 !important;
+	color: #909090 !important;
+}
+/* sunztttt css*/
+.cell-title.data-v-6c956b14 {
+	font-size: 32rpx;
+	font-weight: bolder;
+	color: #363D50;
+}
+.cell-title-sub.data-v-6c956b14 {
+	font-size: 26rpx;
+	color: #B3B3B3;
+}
+/* sunztttt css */
+.agreement.data-v-6c956b14 {
+  display: flex;
+  align-items: center;
+  margin: 0rpx 20rpx;
+  font-size: 30rpx;
+}
+.agreement .agreement-text.data-v-6c956b14 {
+  padding-left: 8rpx;
+  color: #909399;
+}
+.agreement .agreement-xy.data-v-6c956b14 {
+  color: #404658;
+  text-decoration: underline;
+  font-style: italic;
+}
+.touxiang.data-v-6c956b14 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 130rpx;
+  margin-left: 50rpx;
+}
+.u-s-f-body.data-v-6c956b14 {
+  padding: 20rpx 20rpx;
+  border: 1px solid rgba(174, 159, 130, 0.11);
+  border-radius: 16rpx;
+}
+

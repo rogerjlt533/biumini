@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-mask": "/uview-ui/components/u-mask/u-mask",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

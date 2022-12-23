@@ -1,0 +1,37 @@
+.body {
+	padding: 0 20rpx;
+}
+.user-set-btn {
+	margin-top: 30rpx;
+	display: flex;
+	align-items: center;
+	width: 50%;
+	background-color: #AE9F82;
+	color: #FFFFFF !important;
+}
+.common-input {
+	font-size: 30rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.user-set-btn-disable {
+	background: #F4F4F4 !important;
+	color: #909090 !important;
+}
+
+/* sunztttt css*/
+.cell-title {
+	font-size: 32rpx;
+	font-weight: bolder;
+	color: #363D50;
+}
+.cell-title-sub {
+	font-size: 26rpx;
+	color: #B3B3B3;
+}
+
+/* sunztttt css */
+.biu-item {
+	border-bottom: 1px solid #CCCCCC;
+}
+.biu-item-last {}
+

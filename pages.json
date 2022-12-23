@@ -1,0 +1,189 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true, //开启这个下拉刷新，app和微信小程序端全部开启
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/forest/forest",
+			"style": {
+				"enablePullDownRefresh": true, //开启这个下拉刷新，app和微信小程序端全部开启
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				// "navigationBarTitleText": "我的",
+				// "enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/msg/msg",
+			"style": {
+				"enablePullDownRefresh": true, //开启这个下拉刷新，app和微信小程序端全部开启
+				"onReachBottomDistance": 100
+			}
+		}, {
+			"path": "pages/user/biu",
+			"style": {
+				"navigationBarTitleText": "Biu笔友"
+			}
+		},
+		{
+			"path": "pages/user/userhelp",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+
+			}
+		}, {
+			"path": "pages/user/blacklist",
+			"style": {
+				"navigationBarTitleText": "黑名单"
+
+			}
+		}, {
+			"path": "pages/forest/letter",
+			"style": {
+				"navigationBarTitleText": "树洞信"
+
+			}
+		}, {
+			"path": "pages/forest/write",
+			"style": {
+				"navigationBarTitleText": "写给树洞的信"
+
+			}
+		}, {
+			"path": "pages/user/userabout",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/user/subscribe",
+			"style": {
+				"navigationBarTitleText": "消息通知设置",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/user/usersafe",
+			"style": {
+				"navigationBarTitleText": "安全提示",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/user/gerenjianjie",
+			"style": {
+				"navigationBarTitleText": "个人简介",
+				"enablePullDownRefresh": false
+
+			}
+		}, {
+			"path": "pages/user/editPenName",
+			"style": {
+				"navigationBarTitleText": "修改笔名",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/editTx",
+			"style": {
+				"navigationBarTitleText": "修改头像",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/editTxDetail",
+			"style": {
+				"navigationBarTitleText": "通信详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/editLikes",
+			"style": {
+				"navigationBarTitleText": "兴趣爱好",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/msg/hislist",
+			"style": {
+				"navigationBarTitleText": "通信历史",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100
+			}
+
+		}, {
+			"path": "pages/msg/msgdetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/home/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F4F4EC"
+			}
+
+		}, {
+			"path": "pages/msg/sixin",
+			"style": {
+				"navigationBarTitleText": "私信",
+				"enablePullDownRefresh": false
+				// "backgroundColor": "#F4F4EC"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#AE9F82",
+		"navigationBarTitleText": "笔友树洞",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#AE9F82",
+		"lazyCodeLoading": "requiredComponents"
+	},
+	"tabBar": {
+		"color": "#363D50",
+		"selectedColor": "#AE9F82",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/bar-xinquan-0.png",
+				"selectedIconPath": "static/bar-xinquan-1.png",
+				"text": "信圈"
+			},
+			{
+				"pagePath": "pages/forest/forest",
+				"iconPath": "static/bar-linjian-0.png",
+				"selectedIconPath": "static/bar-linjian-1.png",
+				"text": "林间"
+			},
+			{
+				"pagePath": "pages/msg/msg",
+				"iconPath": "static/bar-xinxi-0.png",
+				"selectedIconPath": "static/bar-xinxi-1.png",
+				"text": "信息"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/bar-wode-0.png",
+				"selectedIconPath": "static/bar-wode-1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

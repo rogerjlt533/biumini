@@ -1,0 +1,20 @@
+
+.body.data-v-7cfe5326 {
+	margin: 10rpx;
+	padding: 10rpx;
+}
+.th-plus.data-v-7cfe5326 {
+	width: 100rpx;
+	height: 70rpx;
+	text-align: center;
+	margin-right: 30rpx;
+	border: 1px solid #AE9F82;
+	background-color: #AE9F82;
+	border-radius: 44rpx;
+}
+.foest-hole-cell.data-v-7cfe5326 {
+	margin: 10rpx 0;
+	padding: 0rpx;
+	border-bottom: #EEEEEE 1rpx solid;
+}
+

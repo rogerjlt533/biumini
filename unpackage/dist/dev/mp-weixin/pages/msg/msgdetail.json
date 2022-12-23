@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "biu-mingpian": "/compoents/home/biu-mingpian"
+  }
+}

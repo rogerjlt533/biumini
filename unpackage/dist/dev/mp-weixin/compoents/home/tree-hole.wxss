@@ -1,0 +1,89 @@
+
+.tree-hole-title.data-v-4d67f7b4 {
+	margin-left: 30rpx;
+}
+.tree-hole-name.data-v-4d67f7b4 {
+	font-size: 34rpx;
+	font-weight: 600;
+	color: #363D50;
+	margin-bottom: -10rpx;
+	/* border: 1px solid #09BB07; */
+}
+.tree-hole-time.data-v-4d67f7b4 {
+	font-size: 26rpx;
+	color: #8A8A8A;
+	margin-top: -10rpx;
+	/* border: 1px solid #8A6DE9; */
+}
+.biu-label.data-v-4d67f7b4 {
+	font-weight: 400;
+	font-size: 28rpx;
+	color: #363D50;
+	background-color: #EDEDED;
+	padding: 10rpx;
+	border: 1px solid #F5F5F5;
+	border-radius: 30rpx;
+}
+.pinglun-dianzan.data-v-4d67f7b4 {
+	margin: 6rpx 20rpx auto 20rpx;
+}
+.tree-hole-content.data-v-4d67f7b4 {
+	font-size: 32rpx;
+	color: #8A8A8A;
+	font-weight: 300;
+}
+.mingpian-operate.data-v-4d67f7b4 {
+	width: 160rpx;
+	margin: 10rpx 10rpx 10rpx auto;
+}
+.mingpian-share.data-v-4d67f7b4 {
+	margin: 0 20rpx 0rpx 20rpx;
+	width: 120rpx;
+	height: 40rpx;
+	text-align: right;
+}
+.mingpian-share-menu-old.data-v-4d67f7b4 {
+	border: 1px solid #DED3BD;
+	background-color: #F5F5F5;
+	width: 160rpx;
+	margin: 240rpx 40rpx auto auto;
+	/* padding: 10rpx; */
+	border-radius: 16rpx;
+}
+.mingpian-share-menu.data-v-4d67f7b4 {
+	border: 1px solid rgba(174, 159, 130, 0.2);
+	background-color: #F5F5F5;
+	width: 160rpx;
+	/* padding: 10rpx; */
+	border-radius: 16rpx;
+	position: absolute;
+}
+.menu-item.data-v-4d67f7b4 {
+	padding: 10rpx;
+	border-top: 1px solid #EDEDED;
+	font-size: 32rpx;
+	/* height: 80rpx; */
+	color: #AE9F82;
+}
+.biu-image.data-v-4d67f7b4 {
+	margin-left: -12rpx;
+	padding-bottom: 16rpx;
+}
+.friend-hole.data-v-4d67f7b4 {
+	margin-left: 80rpx;
+	/* border: 1px solid #FF0000; */
+}
+.public-hole.data-v-4d67f7b4 {
+	margin-left: 0;
+}
+.letter-favor.data-v-4d67f7b4 {
+	margin: 30rpx 0 20rpx 20rpx;
+}
+.letter-pinglun.data-v-4d67f7b4 {
+	background-color: #FAFAFA;
+	border: 1rpx solid #FAFAFA;
+	border-radius: 16rpx;
+	margin: 10rpx 0;
+	padding: 10rpx 0;
+}
+

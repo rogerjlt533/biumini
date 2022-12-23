@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-sticky": "/uview-ui/components/u-sticky/u-sticky",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "home-list": "/compoents/home/home-list",
+    "home-data": "/compoents/home/home-data",
+    "home-userinfo": "/compoents/home/home-userinfo",
+    "biu-mingpian": "/compoents/home/biu-mingpian",
+    "biu-info": "/compoents/home/biu-info",
+    "home-login": "/compoents/home/home-login",
+    "home-register": "/compoents/home/home-register"
+  }
+}

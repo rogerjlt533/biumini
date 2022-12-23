@@ -1,0 +1,50 @@
+
+.mingpian.data-v-25ae91f6 {
+	margin: 10rpx;
+	/* padding: 10rpx; */
+	/* background-color: #F7F7F7; */
+	display: flex;
+}
+.mingpian-tx.data-v-25ae91f6 {
+	margin: 10rpx 20rpx;
+}
+.mingpian-nn.data-v-25ae91f6 {
+	color: #363D50;
+	font-size: 32rpx;
+	font-weight: 600;
+	/* border: 1px solid #FF0000; */
+	margin-top: -10rpx;
+	margin-left: 10rpx;
+}
+.mingpian-jj.data-v-25ae91f6 {
+	color: #B3B3B3;
+	font-size: 28rpx;
+	/* border: 1px solid #00FF00; */
+	/* margin: -8rpx 10rpx; */
+}
+.mingpian-operate.data-v-25ae91f6 {
+	width: 160rpx;
+	margin: 10rpx 10rpx 10rpx auto;
+}
+.mingpian-share.data-v-25ae91f6 {
+	margin: 0 20rpx 0rpx 20rpx;
+	width: 120rpx;
+	height: 40rpx;
+	text-align: right;
+}
+.mingpian-share-menu.data-v-25ae91f6 {
+	border: 1px solid rgba(174, 159, 130, 0.2);
+	background-color: #F5F5F5;
+	width: 160rpx;
+	/* padding: 10rpx; */
+	border-radius: 16rpx;
+	position: absolute;
+}
+.menu-item.data-v-25ae91f6 {
+	padding: 10rpx;
+	border-top: 1px solid #EDEDED;
+	font-size: 32rpx;
+	/* height: 80rpx; */
+	color: #AE9F82;
+}
+

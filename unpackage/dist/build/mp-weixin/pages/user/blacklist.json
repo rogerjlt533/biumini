@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "黑名单",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "biu-mingpian": "/compoents/home/biu-mingpian"
+  }
+}

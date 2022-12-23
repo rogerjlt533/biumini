@@ -1,0 +1,33 @@
+
+.xinxi.data-v-ab05c5a8 {
+	display: flex;
+}
+.xinxi-cell-type-read.data-v-ab05c5a8 {
+	margin-top: 0rpx;
+	font-size: 34rpx;
+	color: #8A8A8A;
+}
+.xinxi-cell-type-unread.data-v-ab05c5a8 {
+	margin-top: 0rpx;
+	font-size: 34rpx;
+	font-weight: 600;
+	color: #363D50;
+}
+.xinxi-title-read.data-v-ab05c5a8 {
+	font-size: 32rpx;
+	color: #8A8A8A;
+}
+.xinxi-title-unread.data-v-ab05c5a8 {
+	font-size: 32rpx;
+	font-weight: 600;
+	color: #363D50;
+}
+.xinxi-time.data-v-ab05c5a8 {
+	color: #B3B3B3;
+	font-size: 26rpx;
+}
+.xinxi-content.data-v-ab05c5a8 {
+	color: #808080;
+	font-size: 28rpx;
+}
+

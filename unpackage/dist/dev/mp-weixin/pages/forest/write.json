@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "写给树洞的信",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "choose-moods": "/compoents/common/choose-moods",
+    "choose-label": "/compoents/common/choose-label"
+  }
+}
