@@ -5,9 +5,9 @@
     "include": []
   },
   "setting": {
-    "urlCheck": false,
-    "es6": false,
-    "postcss": false,
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
     "minified": true,
     "newFeature": true,
     "bigPackageSizeSupport": true,

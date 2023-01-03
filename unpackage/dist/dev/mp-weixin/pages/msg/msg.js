@@ -668,7 +668,6 @@ var systemInfo = uni.getSystemInfoSync();var BiuInfo = function BiuInfo() {__web
       this.titleList[this.currIdx].hasnew = false;
       switch (this.currIdx) {
         case 0:
-          this.allReaded("message");
           this.loadData({
             type: "message",
             sub: this.categroyList1[this.categroyIndex1].value,
@@ -677,7 +676,6 @@ var systemInfo = uni.getSystemInfoSync();var BiuInfo = function BiuInfo() {__web
 
           break;
         case 1:
-          this.allReaded("public");
           this.loadData({
             type: "public",
             sub: this.categroyList2[this.categroyIndex2].value,
@@ -686,7 +684,6 @@ var systemInfo = uni.getSystemInfoSync();var BiuInfo = function BiuInfo() {__web
 
           break;
         case 2:
-          this.allReaded("notice");
           this.loadData({
             type: "notice",
             sub: this.categroyList3[this.categroyIndex3].value,
@@ -695,7 +692,6 @@ var systemInfo = uni.getSystemInfoSync();var BiuInfo = function BiuInfo() {__web
 
           break;
         case 3:
-          this.allReaded("private");
           this.getBlackList({
             sub: this.categroyList4[this.categroyIndex4].value,
             read: this.statusList[this.statusIndex4].value,
@@ -712,18 +708,22 @@ var systemInfo = uni.getSystemInfoSync();var BiuInfo = function BiuInfo() {__web
         case 0:
           this.categroyIndex1 = 0;
           this.statusIndex1 = 0;
+          this.allReaded("message");
           break;
         case 1:
           this.categroyIndex2 = 0;
           this.statusIndex2 = 0;
+          this.allReaded("public");
           break;
         case 2:
           this.categroyIndex3 = 0;
           this.statusIndex3 = 0;
+          this.allReaded("notice");
           break;
         case 3:
           this.categroyIndex4 = 2;
           this.statusIndex4 = 0;
+          this.allReaded("private");
           break;
         default:
           break;}

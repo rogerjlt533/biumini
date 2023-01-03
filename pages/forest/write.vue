@@ -370,7 +370,8 @@
 
 	#editor {
 		width: 100%;
-		height: 300px;
-		background-color: #eeeeee;
+		height: 225px;
+		background-color: #f9f9f9;
+		padding: 5px;
 	}
 </style>
