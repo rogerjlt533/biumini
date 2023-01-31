@@ -420,7 +420,7 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
       that.fileList.map(function (item) {
         _images.push(item.url);
       });
-
+      this.getContents();
       var _url = "/hole/note/create";
       var _params = {
         content: that.model.content,
@@ -429,6 +429,7 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
         label: that.label.checked ? that.label.id : "",
         mood: that.moods.code,
         images: _images.join(",") };
+
 
 
       if (_params.images.indexOf("wxfile://") > -1) {

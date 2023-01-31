@@ -12,7 +12,7 @@
 					:auto-height="true" :customStyle="customStyle"></u-input> -->
 
 				<editor id="editor" class="ql-container" placeholder="把开心和不开心说出来会缓解很多奥" @ready="onEditorReady"
-					@blur="getContents"></editor>
+					@input="getContents" @blur="getContents"></editor>
 
 
 				<view style="height: 20rpx;"></view>
@@ -248,7 +248,7 @@
 				that.fileList.map((item) => {
 					_images.push(item.url)
 				});
-
+				this.getContents();
 				let _url = "/hole/note/create";
 				let _params = {
 					content: that.model.content,
@@ -258,6 +258,7 @@
 					mood: that.moods.code,
 					images: _images.join(",")
 				};
+
 
 				if (_params.images.indexOf("wxfile://") > -1) {
 					that.$u.toast("图片正在上传，请稍后");
