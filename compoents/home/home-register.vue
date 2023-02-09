@@ -44,7 +44,7 @@
 				</view>
 
 				<view style="text-align: center; margin: 0 -30rpx;">
-					<image style="width: 100%;" mode="widthFix" src="http://biuimage.juqihui.cn/login2022329.png">
+					<image style="width: 100%;" mode="widthFix" src="http://biuimage.zuosuo.net/login2022329.png">
 					</image>
 				</view>
 

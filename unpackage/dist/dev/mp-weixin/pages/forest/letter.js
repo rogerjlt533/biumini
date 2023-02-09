@@ -412,7 +412,7 @@ var _vuex = __webpack_require__(/*! vuex */ 15);function ownKeys(object, enumera
       "../../../static/treehole/biu/dianzan-0.png",
       "../../../static/treehole/biu/dianzan-1.png"],
 
-      gif: "http://biuimage.juqihui.cn/baobao.gif",
+      gif: "http://biuimage.zuosuo.net/baobao.gif",
       gifsrc: "",
       menuUrl: [
       "../../../static/treehole/biu/sd-share.png",
