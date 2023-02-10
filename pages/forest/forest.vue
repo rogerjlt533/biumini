@@ -148,6 +148,9 @@
 			}
 		},
 		methods: {
+			// getValue(temporary) {
+			// 	console.log(temporary, 'B页面传递的数据')
+			// },
 			link2page(item, idx, typ) {
 				const that = this;
 				item = {
@@ -523,6 +526,15 @@
 		},
 		onShow() {
 			// this.reloadData()
+			console.log(this.temporary,1,'temporarytemporary11')
+			console.log(this.mineList,'minlist')
+			
+			this.mineList.map((item,index)=>{
+				if(item.id === this.temporary.id){
+					this.$set(this.mineList,index,this.temporary)
+				}
+			})
+			console.log(this.mineList,'sssasa')
 		},
 		onShareAppMessage(res) {
 			if (res.from === 'button') { // 来自页面内分享按钮

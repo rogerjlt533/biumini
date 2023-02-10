@@ -97,6 +97,8 @@
 		},
 		data() {
 			return {
+				// 查找替换用Id
+				infoID: '',
 				srcleft: '../../../static/treehole/my/back.png',
 				imgsize: 46,
 				showpopup1: false,
@@ -170,8 +172,10 @@
 			if (!!_params) {
 				try {
 					var _detail = JSON.parse(decodeURIComponent(_params));
+					this.infoID = _detail.id
 				} catch (error) {
 					var _detail = JSON.parse(_params);
+					this.infoID = _detail.id
 				}
 				console.info("onLoad:::", _detail);
 				this.model.id = _detail.id;
@@ -187,12 +191,16 @@
 				}
 				this.switchChecked1 = _detail.is_private === 0 ? false : true;
 				this.switchChecked2 = _detail.nick_show === 0 ? false : true;
-				_detail.images.map((item) => {
-					let _temp = {
-						url: item
-					};
-					this.fileList.push(_temp)
+				_detail.images.map((item,index) => {
+					// let _temp = {
+					// 	url: item
+					// };
+					this.fileList.push({
+						url: item,
+						// name:`img`+index
+					})
 				})
+				console.log(this.fileList,'this.fileList')
 			}
 		},
 		methods: {
@@ -291,9 +299,8 @@
 					// console.info(_result)
 					if (_result.code === 200) {
 						that.$u.toast("发送成功");
-						setTimeout(() => {
-							that.goBack()
-						}, 1000)
+						// 获取详情进行替换
+						that.infoChange()
 					} else if (_result.code === 501) {
 						setTimeout(() => {
 							uni.hideLoading();
@@ -314,6 +321,35 @@
 					// console.log('====:',msg);
 					that.$tip.error(msg);
 				})
+			},
+			infoChange() {
+				const that = this;
+				let _url = '/hole/note/info';
+				that.$http.post(_url, {
+					id: that.infoID
+				}).then(res => {
+					console.log(res, 'res')
+					if (res.data.code === 200) {
+						let temporary = res.data.data;
+						// console.log(temporary, 'temporarytemporary')
+
+						let pages = getCurrentPages()
+						let prevPage = pages[pages.length - 2]
+						// console.log(prevPage, 'prevPage')
+						// encodeURIComponent(JSON.stringify(temporary))
+						prevPage.$vm.temporary = temporary
+						// prevPage.$vm.getValue(temporary)
+						setTimeout(() => {
+							that.goBack(temporary)
+						}, 1000)
+					}
+					if (res.data.code === 500) {
+						that.infoChange()
+					}
+				}).catch((err) => {
+					console.info("err::", err);
+					that.infoChange()
+				}).finally(() => {})
 			},
 			/*上传图片 begin*/
 			//图片上传成功回调
@@ -338,14 +374,17 @@
 			cancel() {
 				this.goBack()
 			},
-			goBack() {
+			goBack(temporary) {
 				uni.navigateBack({
-
+					// temporary: encodeURIComponent(JSON.stringify(temporary))
 				})
 			},
 			onEditorReady() {
 				uni.createSelectorQuery().select('#editor').context((res) => {
 					this.editorCtx = res.context
+					res.context.setContents({
+						html: this.model.content
+					})
 				}).exec()
 			},
 			// 失去焦点时，获取富文本的内容
