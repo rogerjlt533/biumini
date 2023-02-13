@@ -1,10 +1,10 @@
 <template>
 	<view class="body">
-		<view class="head">
+		<view class="head" style="padding:170rpx 0 20rpx 0">
 			<u-image :src="src" mode="widthFix"></u-image>
 		</view>
 
-		<view style="margin: 100rpx auto;">
+		<view style="margin: 0rpx auto 100rpx;">
 			<view style="margin: 20rpx 30% 0 30%;">
 				<u-button shape="circle" type="primary" @click="wxlogin()">授权登录</u-button>
 			</view>

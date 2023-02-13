@@ -204,7 +204,7 @@
           if (res.data.code === 501) {
 						setTimeout(() => {
 							uni.hideLoading();
-							that.$store.dispatch("Logout")
+							// that.$store.dispatch("Logout")
 						}, 800)
 					}
         }).catch((err) => {
