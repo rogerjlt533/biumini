@@ -187,7 +187,7 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
 //
 //
 //
-var _default = { name: 'HomeLogin', data: function data() {return { src: _configService.default.imgUrl + '/login.png' };}, methods: { wxlogin: function wxlogin() {this.$emit("wxlogin");}, goBack: function goBack() {// this.$emit("goBack")
+var _default = { name: 'HomeLogin', data: function data() {return { src: _configService.default.imgUrl + 'login.png' };}, methods: { wxlogin: function wxlogin() {this.$emit("wxlogin");}, goBack: function goBack() {// this.$emit("goBack")
       uni.switchTab({ url: '/pages/index/index' });} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 

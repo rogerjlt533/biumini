@@ -317,6 +317,9 @@ var systemInfo = uni.getSystemInfoSync();var TreeHole = function TreeHole() {__w
     } },
 
   methods: {
+    // getValue(temporary) {
+    // 	console.log(temporary, 'B页面传递的数据')
+    // },
     link2page: function link2page(item, idx, typ) {
       var that = this;
       item = _objectSpread(_objectSpread({},
@@ -690,8 +693,17 @@ var systemInfo = uni.getSystemInfoSync();var TreeHole = function TreeHole() {__w
   onPageScroll: function onPageScroll(e) {
     this.scrollTop = e.scrollTop;
   },
-  onShow: function onShow() {
+  onShow: function onShow() {var _this2 = this;
     // this.reloadData()
+    console.log(this.temporary, 1, 'temporarytemporary11');
+    console.log(this.mineList, 'minlist');
+
+    this.mineList.map(function (item, index) {
+      if (item.id === _this2.temporary.id) {
+        _this2.$set(_this2.mineList, index, _this2.temporary);
+      }
+    });
+    console.log(this.mineList, 'sssasa');
   },
   onShareAppMessage: function onShareAppMessage(res) {
     if (res.from === 'button') {// 来自页面内分享按钮

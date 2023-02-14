@@ -6017,7 +6017,7 @@ var BASE_URL = 'https://biuapi.zuosuo.net/api';
 
 
 // let image_url = 'http://biuimage.juqihui.cn/';
-var image_url = 'http://biuimage.zuosuo.cn/';
+var image_url = 'http://biuimage.zuosuo.net/';
 
 var staticDomainURL = BASE_URL + '/sys/common/static';
 

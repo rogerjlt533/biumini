@@ -446,12 +446,13 @@
 						// 	console.log("节点离页面顶部的距离为" + data.top);
 						// }).exec();
 
-					} else if (_result.code === 501) {
-						setTimeout(() => {
-							uni.hideLoading();
-							that.$store.dispatch("Logout")
-						}, 800)
-					}
+					} 
+					//else if (_result.code === 501) {
+					//	setTimeout(() => {
+					//		uni.hideLoading();
+					//		that.$store.dispatch("Logout")
+					//	}, 800)
+					//}
 				}).catch((err) => {
 					let msg = err.message;
 					console.info("err::", err);

@@ -269,6 +269,8 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
 
   data: function data() {
     return {
+      // 查找替换用Id
+      infoID: '',
       srcleft: '../../../static/treehole/my/back.png',
       imgsize: 46,
       showpopup1: false,
@@ -342,8 +344,10 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
     if (!!_params) {
       try {
         var _detail = JSON.parse(decodeURIComponent(_params));
+        this.infoID = _detail.id;
       } catch (error) {
         var _detail = JSON.parse(_params);
+        this.infoID = _detail.id;
       }
       console.info("onLoad:::", _detail);
       this.model.id = _detail.id;
@@ -359,12 +363,16 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
       }
       this.switchChecked1 = _detail.is_private === 0 ? false : true;
       this.switchChecked2 = _detail.nick_show === 0 ? false : true;
-      _detail.images.map(function (item) {
-        var _temp = {
-          url: item };
-
-        _this2.fileList.push(_temp);
+      _detail.images.map(function (item, index) {
+        // let _temp = {
+        // 	url: item
+        // };
+        _this2.fileList.push({
+          url: item
+          // name:`img`+index
+        });
       });
+      console.log(this.fileList, 'this.fileList');
     }
   },
   methods: {
@@ -463,9 +471,8 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
         // console.info(_result)
         if (_result.code === 200) {
           that.$u.toast("发送成功");
-          setTimeout(function () {
-            that.goBack();
-          }, 1000);
+          // 获取详情进行替换
+          that.infoChange();
         } else if (_result.code === 501) {
           setTimeout(function () {
             uni.hideLoading();
@@ -486,6 +493,35 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
         // console.log('====:',msg);
         that.$tip.error(msg);
       });
+    },
+    infoChange: function infoChange() {
+      var that = this;
+      var _url = '/hole/note/info';
+      that.$http.post(_url, {
+        id: that.infoID }).
+      then(function (res) {
+        console.log(res, 'res');
+        if (res.data.code === 200) {
+          var temporary = res.data.data;
+          // console.log(temporary, 'temporarytemporary')
+
+          var pages = getCurrentPages();
+          var prevPage = pages[pages.length - 2];
+          // console.log(prevPage, 'prevPage')
+          // encodeURIComponent(JSON.stringify(temporary))
+          prevPage.$vm.temporary = temporary;
+          // prevPage.$vm.getValue(temporary)
+          setTimeout(function () {
+            that.goBack(temporary);
+          }, 1000);
+        }
+        if (res.data.code === 500) {
+          that.infoChange();
+        }
+      }).catch(function (err) {
+        console.info("err::", err);
+        that.infoChange();
+      }).finally(function () {});
     },
     /*上传图片 begin*/
     //图片上传成功回调
@@ -510,14 +546,17 @@ var _configService = _interopRequireDefault(__webpack_require__(/*! @/common/ser
     cancel: function cancel() {
       this.goBack();
     },
-    goBack: function goBack() {
-      uni.navigateBack({});
-
-
+    goBack: function goBack(temporary) {
+      uni.navigateBack({
+        // temporary: encodeURIComponent(JSON.stringify(temporary))
+      });
     },
     onEditorReady: function onEditorReady() {var _this3 = this;
       uni.createSelectorQuery().select('#editor').context(function (res) {
         _this3.editorCtx = res.context;
+        res.context.setContents({
+          html: _this3.model.content });
+
       }).exec();
     },
     // 失去焦点时，获取富文本的内容

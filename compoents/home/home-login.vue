@@ -1,6 +1,6 @@
 <template>
 	<view class="body">
-		<view class="head" style="padding:170rpx 0 20rpx 0">
+		<view class="head" style="padding:0 0 20rpx 0">
 			<u-image :src="src" mode="widthFix"></u-image>
 		</view>
 
@@ -27,7 +27,7 @@
 		name: 'HomeLogin',
 		data() {
 			return {
-				src: configService.imgUrl + '/login.png'
+				src: configService.imgUrl + 'login.png'
 			}
 		},
 		methods: {

@@ -638,12 +638,13 @@ var _vuex = __webpack_require__(/*! vuex */ 15);function ownKeys(object, enumera
           // 	console.log("节点离页面顶部的距离为" + data.top);
           // }).exec();
 
-        } else if (_result.code === 501) {
-          setTimeout(function () {
-            uni.hideLoading();
-            that.$store.dispatch("Logout");
-          }, 800);
         }
+        //else if (_result.code === 501) {
+        //	setTimeout(() => {
+        //		uni.hideLoading();
+        //		that.$store.dispatch("Logout")
+        //	}, 800)
+        //}
       }).catch(function (err) {
         var msg = err.message;
         console.info("err::", err);

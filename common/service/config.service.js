@@ -5,7 +5,7 @@ let BASE_URL = 'https://biuapi.zuosuo.net/api';
 
 
 // let image_url = 'http://biuimage.juqihui.cn/';
-let image_url = 'http://biuimage.zuosuo.cn/';
+let image_url = 'http://biuimage.zuosuo.net/';
 
 let staticDomainURL = BASE_URL + '/sys/common/static';
 

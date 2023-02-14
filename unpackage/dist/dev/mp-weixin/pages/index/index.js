@@ -382,7 +382,7 @@ var systemInfo = uni.getSystemInfoSync();var BiuCell = function BiuCell() {__web
         if (res.data.code === 501) {
           setTimeout(function () {
             uni.hideLoading();
-            that.$store.dispatch("Logout");
+            // that.$store.dispatch("Logout")
           }, 800);
         }
       }).catch(function (err) {
