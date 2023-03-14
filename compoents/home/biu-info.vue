@@ -1,5 +1,5 @@
 <template>
-	<view class="body">
+	<view class="body" style="border: 1rpx solid rgba(169, 169, 169, 0.3);">
 		<view class="mingpian u-f-a">
 			<view class="mingpian-tx">
 				<u-image shape="circle" :src="biuXinxi.image" :width="imgSize" :height="imgSize"></u-image>
